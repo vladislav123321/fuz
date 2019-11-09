@@ -6,14 +6,16 @@
     <style type="text/css">
     	body {
     		font-size:20px;
-    	}
+            margin: 0;
+        }
     .logo{
     	  background:red;
     	  color:blue;
     	  font-style:italic;
+          font-size: 100px;
     }
     .menu{
-    	background:blue;
+    	background:green;
     }
     .big_header{
     	color:green;
@@ -29,15 +31,30 @@
     	background:yellow;
     }
     .logo{
-    	color:blue;
+    	color:green;
     	background:red;
     }
     .menu{
     	color:black;
     	background:violet;
     }
-
+    #FirstBlock{
+        display:block;
+        color:red;
+        margin: 0 auto;
+        text-align:center;
+    }
+button:disabled{
+    background: black;
+    color:white;
+}
+body *:hover{
+    background: pink;
+    cursor:pointer;
+}
     </style>
+
+
     
     
     </head>
@@ -52,13 +69,24 @@
     		А ещё я выучил следующие свойства:
     	</h2>
     	<p>
-    	<p class="logo">	1.color <br></p>
-    	 <p class="menu">  2.backgroung color<br></p>
+    	<p class="logo">	1.SHREK <br></p>
+    	 <p class="menu">  2.jopa<br></p>
     	 <p class="big_header">   3.font-size<br></p>
     	 <p class="yellow-text">	4.text-decoration<br></p>
     	  <p class="container-1">  5.font-style<br></p>
-    	<p class="logo">	6.font-weight<br></p>
+    	<p class="logo">	6.SHREK<br></p>
     	<p class="menu">	7.text-align </p>
+        <h1 id="FirstBlock">
+            BLOCK 1
+            
+        </h1>
+        <button>
+            <a href="www.yandex.ru">обычная батон))</a>
+            
+        </button>
+        <button disabled="true"> 
+            не рабочая батон
+        </button>
 
     	
     	
