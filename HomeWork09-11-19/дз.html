@@ -2,93 +2,54 @@
 <html>
     <head>
     <meta charset="utf-8">
-    <title>дз css</title>
+    <title>))))</title>
     <style type="text/css">
-    	body {
-    		font-size:20px;
-            margin: 0;
-        }
-    .logo{
-    	  background:red;
-    	  color:blue;
-    	  font-style:italic;
-          font-size: 100px;
+    
+
+    .child{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        border: solid grey;
+
     }
-    .menu{
-    	background:green;
+
+   .parentDiv {
+        width: 1040px;
+        align-content: center;
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+
     }
-    .big_header{
-    	color:green;
-    	background:yellow;
-    }
-    .yellow-text{
-    	color:white;
-    	background:black;
-    	font-style: initial;
-    }
-    .container-1{
-    	color:orange;
-    	background:yellow;
-    }
-    .logo{
-    	color:green;
-    	background:red;
-    }
-    .menu{
-    	color:black;
-    	background:violet;
-    }
-    #FirstBlock{
-        display:block;
-        color:red;
-        margin: 0 auto;
-        text-align:center;
-    }
-button:disabled{
-    background: black;
-    color:white;
-}
-body *:hover{
-    background: pink;
-    cursor:pointer;
-}
+   h1{
+    text-align: center;
+   }
+    	
     </style>
 
-
-    
-    
+    <head>
+        
     </head>
+    
     <body>
-    	<h1>
-    		Привет,мир!
-    	</h1>
-    	<p>
-    Я теперь знаю, что такое CSS и могу подцлючить его в проект
-    	</p>
-    	<h2>
-    		А ещё я выучил следующие свойства:
-    	</h2>
-    	<p>
-    	<p class="logo">	1.SHREK <br></p>
-    	 <p class="menu">  2.jopa<br></p>
-    	 <p class="big_header">   3.font-size<br></p>
-    	 <p class="yellow-text">	4.text-decoration<br></p>
-    	  <p class="container-1">  5.font-style<br></p>
-    	<p class="logo">	6.SHREK<br></p>
-    	<p class="menu">	7.text-align </p>
-        <h1 id="FirstBlock">
-            BLOCK 1
+        <div class="parentDiv">
+            <div class="child">
+                <h1  class="text">Product 3<br><p></h1>    
+                                   azazaza        
+            </div>
             
-        </h1>
-        <button>
-            <a href="www.yandex.ru">обычная батон))</a>
-            
-        </button>
-        <button disabled="true"> 
-            не рабочая батон
-        </button>
-
-    	
+            <div class="child">
+                <h1  class="text">Product 2</h1> 
+                 
+            </div>
+            <div class="child">
+                <h1  class="text">Product 1</h1> 
+            </div>      
+        </div class="parentDiv">
     	
     </body>
 </html>
